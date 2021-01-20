@@ -8,6 +8,7 @@ const useStyles = makeStyles({
     root: {
       border: "1px solid rgb(232,232,232)",
       height: "70px",
+      maxWidth: "350px",
       borderRadius: "12px",
       padding: "20px",
       margin: "15px",

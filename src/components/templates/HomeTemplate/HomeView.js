@@ -15,7 +15,7 @@ const useStyles = makeStyles({
       color: "white",
     },
     top: {
-      padding: "10px 90px 0 60px",
+      padding: "20px 90px 0 60px",
       cursor: "pointer",
     },
     logo: {
@@ -26,7 +26,7 @@ const useStyles = makeStyles({
       width: "800px",
     },
     log:{
-        padding:"0 30px 0 90px"
+        padding:"0 30px 0 80px"
     },
     icon: {
       color: "rgb(255,255,255)",

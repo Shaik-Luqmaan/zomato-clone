@@ -3,6 +3,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import { Grid } from "@material-ui/core";
 import Typography from "../../atoms/Typography/Typography";
 import SearchBar from "../../organism/SearchBar/SearchBar";
+import {Link} from 'react-router-dom';
 
 const useStyles = makeStyles({
     root: {
@@ -24,8 +25,10 @@ function Header(props) {
     <Grid container direction="column" className={classes.root} spacing={6}>
       <Grid item container direction="row" alignItems="center" spacing={4}>
         <Grid item>
+            <Link to="/" style={{ textDecoration: 'none' }}>
             <img alt="zomato-logo" className={classes.logo} src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png" />
-        </Grid>
+            </Link>
+         </Grid>
         <Grid item lg>
           <SearchBar/>
         </Grid>
