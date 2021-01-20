@@ -3,7 +3,6 @@ import { makeStyles } from "@material-ui/core/styles";
 import { Grid } from "@material-ui/core";
 import Typography from "../../atoms/Typography/Typography";
 
-
 const useStyles = makeStyles({
     root: {
       border: "1px solid rgb(0,0,0,.2)",
