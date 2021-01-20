@@ -30,6 +30,7 @@ const useStyles = makeStyles({
     },
     icon: {
       color: "rgb(255,255,255)",
+      cursor:"pointer"
     },
     
   });

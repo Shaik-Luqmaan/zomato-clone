@@ -5,10 +5,8 @@ import Typography from "../../atoms/Typography/Typography";
 import Collections from "../CollectionsTemplate/Collections";
 import { Link } from "react-router-dom";
 
-
 const useStyles = makeStyles({
     root: {
-     
       paddingLeft: "10px"
     },
     subHeading: {
@@ -80,17 +78,7 @@ function Headings(props) {
             })}
             </Grid>
         
-            {activeType > 0 && (
-            <Grid items>
-                <Collections />
-            </Grid>
-            )}
-
-            {/* {activeType = 2 && (
-            <Grid items>
-                <NightCollections />
-            </Grid>
-            )} */}
+            {activeType > 0 && (<Grid items><Collections /></Grid>)}
 
         <Grid container direction="row" >    
             {tabList.map((tab,index) =>{

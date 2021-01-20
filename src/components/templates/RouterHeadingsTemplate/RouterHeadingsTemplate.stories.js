@@ -1,5 +1,6 @@
 import React from "react";
 import HeadingsTemplate from "./RouterHeadingsTemplate";
+import { BrowserRouter } from 'react-router-dom';
 
 export default {
     title: "templates/Headings",
@@ -8,7 +9,7 @@ export default {
 
 
 const Template = ({...args})=>(
-    <HeadingsTemplate {...args} />
+    <BrowserRouter> <HeadingsTemplate {...args} /> </BrowserRouter>
 );
 
 
