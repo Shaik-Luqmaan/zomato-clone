@@ -1,3 +1,7 @@
+# ZOMATO-CLONE
+
+Clone of Zomato Application using React, Material UI
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
