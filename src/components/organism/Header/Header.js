@@ -47,7 +47,7 @@ function Header(props) {
       </Grid>
       <Grid item>
         <Typography variant="subtitle2">
-          Home / India / Hyderabad / Hyderabad City /Tolichowki Restaurants
+          Home / India / Hyderabad /Tolichowki Restaurants
         </Typography>
       </Grid>
     </Grid>
