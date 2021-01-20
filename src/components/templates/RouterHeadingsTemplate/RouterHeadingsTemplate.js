@@ -3,11 +3,10 @@ import { makeStyles } from "@material-ui/core/styles";
 import { Grid } from "@material-ui/core";
 import Typography from "../../atoms/Typography/Typography";
 import Collections from "../CollectionsTemplate/Collections";
-
+import { Link } from "react-router-dom";
 
 const useStyles = makeStyles({
     root: {
-     
       paddingLeft: "10px"
     },
     subHeading: {
@@ -23,6 +22,10 @@ const useStyles = makeStyles({
     subHeadingBar: {
       padding: "0 0 60px 60px",
     },
+    link: {
+        textDecoration: "none",
+        color: "inherit",
+      },
     text:{
        padding: "0 30px",
     },
@@ -65,17 +68,17 @@ function Headings(props) {
                 }
                 return (
                     <Grid item className={classList} key={index}>
-                        <Typography variant="h6">{headingItem.title}</Typography>
+                         <Link
+                            to={"/hyderabad/" + headingItem.link}
+                            className={classes.link}>
+                            <Typography variant="h6">{headingItem.title}</Typography>
+                        </Link>
                     </Grid>
                 );
             })}
             </Grid>
         
-            {activeType > 0 && (
-            <Grid items>
-                <Collections />
-            </Grid>
-            )}
+            {activeType > 0 && (<Grid items><Collections /></Grid>)}
 
         <Grid container direction="row" >    
             {tabList.map((tab,index) =>{
@@ -98,12 +101,15 @@ function Headings(props) {
 const headingsList = [
     {
       title: "Delivery",
+      link: "delivery"
     },
     {
       title: "Dining Out",
+      link:"dine-out"
     },
     {
       title: "Nightlife",
+      link: "night-life"
     },
 ];
 
