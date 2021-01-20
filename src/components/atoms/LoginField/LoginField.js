@@ -5,6 +5,9 @@ function LoginField(props) {
     return (
         <TextField id="outlined-basic" 
             variant="outlined"
+            fullWidth
+            size="small"
+            required
             {...props}
             />
     )
