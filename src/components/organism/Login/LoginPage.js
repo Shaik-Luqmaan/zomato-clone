@@ -7,52 +7,58 @@ import Typography from "../../atoms/Typography/Typography";
 import CloseIcon from '@material-ui/icons/Close';
 import Divider from "@material-ui/core/Divider";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {  faEnvelopeOpen} from "@fortawesome/free-solid-svg-icons";
 import {  faGoogle } from "@fortawesome/free-brands-svg-icons";
 import auth from "../../../auth/initAuth";
 
 const useStyles = makeStyles((theme) => ({
     root: {
         backgroundColor: "white",
-        width: '400px',
+        width: '450px',
+        height:"450px",
         borderRadius: "10px",
-        padding: "20px 20px",
+        padding: "10px 10px",
     },
     form: {
         width: "100%", 
         marginTop:"30px",
         marginBottom:"30px"
       },
-    popup: {
+      red: {
+        color: "rgb(255,0,0,.7)",
+        paddingLeft: "10px",
+        cursor:"pointer"
+      },
+      popup: {
         position: "fixed",
         zIndex: 1,
         left: 0,
         top: 0,
-        paddingTop: "10vh",
+        paddingTop: "90px",
+        border: "none",
+        cursor: "pointer",
         backgroundColor: "rgb(0,0,0,0.8)",
         width: "1311px",
         height: "669px",
-    },
-    button:{
+     },
+      button:{
         margin: "15px 0px 10px 0",
         borderRadius: "5px",
         textTransform: "capitalize",
         padding: "5px",
         fontSize: "18px",
-        width: "360px",
-    },
-    divide:{
+        width: "100%",
+      },
+      divide:{
         marginTop:"10px"
     },
-    icons:{
+      icons:{
         padding: "7px",
         color: "rgb(255,0,0,.7)",
       },
-    red: {
-        color: "rgb(255,0,0,.7)",
-        paddingLeft: "10px",
-        cursor:"pointer"
-      },
+      new:{
+        marginTop:"10px"
+      }
+    
   }));
 
 function LoginPage(props) {
@@ -69,9 +75,10 @@ function LoginPage(props) {
         setPassword(e.target.value);
     };
 
-    const _handleSubmit = (e, data) => {
+    const _handleSubmit = (e) => {
         e.preventDefault();
         auth.login(email, password);
+        
     };
     const _handleLoginWithGoogle = (e) => {
         e.preventDefault();
@@ -80,7 +87,7 @@ function LoginPage(props) {
     return (
     <div className={classes.popup}>
       <Grid container justify="center">
-        <Grid container className={classes.root}>
+        <Grid container spacing={5} direction="column" className={classes.root}>
          <Grid item container alignItems="baseline">
             <Grid item sm>
                  <Typography variant="h4">Login</Typography>
@@ -120,7 +127,7 @@ function LoginPage(props) {
 
             </form>
 
-              <Grid item className={classes.divide}>
+              <Grid item className={classes.new}>
                 <Typography variant="subtitle1">
                     New to zomato ? 
                 </Typography>

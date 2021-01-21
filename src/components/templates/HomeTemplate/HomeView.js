@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState} from 'react';
 import { makeStyles } from "@material-ui/core/styles";
 import { Grid } from "@material-ui/core";
 import SearchBar from '../../organism/SearchBar/SearchBar';
@@ -6,6 +6,8 @@ import RouteCollectionItems from '../../organism/RouteCollectionItems/RouteColle
 import Typography from "../../atoms/Typography/Typography";
 import GetAppIcon from '@material-ui/icons/GetApp';
 import { Button } from '@material-ui/core';
+import auth from "../../../auth/initAuth";
+import LoginPage from '../../organism/Login/LoginPage';
 
 const useStyles = makeStyles({
     root: {
@@ -41,14 +43,38 @@ const useStyles = makeStyles({
     btn:{
       color:"white",
       textAlign:"bottom"  ,
-  },
+    },
+    item:{
+      display:"inline",
+    },
+    text:{
+      fontWeight:"bold",
+    }
     
   });
 
 function HomeView(props) {
-    const classes = useStyles();
+  
+  const classes = useStyles();
+
+  let loginInUrl = false;
+
+  if(props.location.search.indexOf("login")!==-1){
+    loginInUrl = true;
+  }
+  const[display,setDisplay] = useState(loginInUrl);
+
+  function handleClick(){
+      setDisplay(true);
+  }
+  const logout = () => {
+      auth.logout();
+      window.location.replace("http://localhost:3000/");
+  };
+
     return (
       <Grid container spacing={7}>
+        {display && <LoginPage setDisplay={setDisplay}/>}
         <Grid item container direction="row" className={classes.root}>
             <Grid item container className={classes.app}>
                 <Grid item>
@@ -59,14 +85,21 @@ function HomeView(props) {
                 </Grid>
               </Grid> 
 
-              <Grid item container justify="flex-end" className={classes.btngrp}>
+              {auth.loggedIn() ?
+               (<Grid item container justify="flex-end" className={classes.btngrp}>
+               <Grid item className={classes.item}>
+               <Button className={classes.btn} onClick={logout}>LogOut</Button>
+               </Grid>
+               </Grid>):
+          
+              (<Grid item container justify="flex-end" className={classes.btngrp}>
                 <Grid item>
-                  <Button className={classes.btn} >Login</Button>
+                  <Button className={classes.btn} onClick={handleClick} >Login</Button>
                 </Grid>
                 <Grid item  > 
-                  <Button className={classes.btn} >SignUp</Button>
+                  <Button className={classes.btn} onClick={handleClick}>SignUp</Button>
                 </Grid>
-              </Grid>
+              </Grid>)}
            
 
               <Grid item container direction="column" justify="center" alignItems="center"spacing={4}>
@@ -82,7 +115,7 @@ function HomeView(props) {
                    </Typography>
                  </Grid>
                   <Grid item>
-                  <Typography variant="h4">Hyderabad</Typography>
+                  <Typography variant="h4" className={classes.text}>Hyderabad</Typography>
                   </Grid>
                 </Grid>
 
@@ -96,6 +129,7 @@ function HomeView(props) {
                <RouteCollectionItems />
              </Grid>       
       </Grid>
+      
     );
 }
 

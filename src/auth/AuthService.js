@@ -17,7 +17,8 @@ this.login = this.login.bind(this)
   }
 login(username, password) {
     this.auth0.client.login({
-      realm: 'react-auth0',
+      // realm:'react-auth0'
+      realm: 'Username-Password-Authentication',
       username,
       password
     }, (err, authResult) => {
