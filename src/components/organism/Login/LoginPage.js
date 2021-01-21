@@ -23,36 +23,39 @@ const useStyles = makeStyles((theme) => ({
         marginTop:"30px",
         marginBottom:"30px"
       },
-    popup: {
+      red: {
+        color: "rgb(255,0,0,.7)",
+        paddingLeft: "10px",
+        cursor:"pointer"
+      },
+      popup: {
         position: "fixed",
         zIndex: 1,
         left: 0,
         top: 0,
-        paddingTop: "10vh",
+        paddingTop: "90px",
+        border: "none",
+        cursor: "pointer",
         backgroundColor: "rgb(0,0,0,0.8)",
         width: "1311px",
         height: "669px",
-    },
-    button:{
+     },
+      button:{
         margin: "15px 0px 10px 0",
         borderRadius: "5px",
         textTransform: "capitalize",
         padding: "5px",
         fontSize: "18px",
         width: "360px",
-    },
-    divide:{
+      },
+      divide:{
         marginTop:"10px"
     },
-    icons:{
+      icons:{
         padding: "7px",
         color: "rgb(255,0,0,.7)",
       },
-    red: {
-        color: "rgb(255,0,0,.7)",
-        paddingLeft: "10px",
-        cursor:"pointer"
-      },
+    
   }));
 
 function LoginPage(props) {
@@ -72,6 +75,7 @@ function LoginPage(props) {
     const _handleSubmit = (e, data) => {
         e.preventDefault();
         auth.login(email, password);
+        
     };
     const _handleLoginWithGoogle = (e) => {
         e.preventDefault();
