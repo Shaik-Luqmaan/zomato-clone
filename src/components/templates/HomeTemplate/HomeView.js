@@ -5,6 +5,7 @@ import SearchBar from '../../organism/SearchBar/SearchBar';
 import RouteCollectionItems from '../../organism/RouteCollectionItems/RouteCollectionItems';
 import Typography from "../../atoms/Typography/Typography";
 import GetAppIcon from '@material-ui/icons/GetApp';
+import { Button } from '@material-ui/core';
 
 const useStyles = makeStyles({
     root: {
@@ -14,9 +15,10 @@ const useStyles = makeStyles({
       backgroundPosition: "center",
       color: "white",
     },
-    top: {
-      padding: "20px 90px 0 60px",
-      cursor: "pointer",
+    app:{
+      width: "50%",
+      padding:"10px 10px 0 20px",
+      justifyContent:"baseline",
     },
     logo: {
       padding:"10px 10px",
@@ -25,13 +27,21 @@ const useStyles = makeStyles({
     search: {
       width: "800px",
     },
-    log:{
-        padding:"0 30px 0 80px"
-    },
+    btngrp:{
+      width:"50%",
+      padding:"10px 20px 0px 20px" ,
+      display:"grid",
+      gridTemplateColumns:"repeat(2,auto)", 
+      float:"right" 
+  },
     icon: {
       color: "rgb(255,255,255)",
       cursor:"pointer"
     },
+    btn:{
+      color:"white",
+      textAlign:"bottom"  ,
+  },
     
   });
 
@@ -39,48 +49,52 @@ function HomeView(props) {
     const classes = useStyles();
     return (
       <Grid container spacing={7}>
-        <Grid item container direction="column" className={classes.root}>
-            <Grid item container spacing={1} className={classes.top}>
+        <Grid item container direction="row" className={classes.root}>
+            <Grid item container className={classes.app}>
                 <Grid item>
                   <GetAppIcon className={classes.icon}/>
                 </Grid>
                 <Grid item>
-                  <Typography mode="link" variant="subtitle2">Get the App</Typography>
+                  <Typography mode="link" variant="subtitle1">Get the App</Typography>
                 </Grid>
-            </Grid> 
-             <Grid item container spacing={3} justify="flex-end" className={classes.log}>
-                   <Grid item >
-                    <Typography variant="subtitle1">Login</Typography>
-                    </Grid>
-                    <Grid item>
-                       <Typography variant="subtitle1">SignUp</Typography>
-                   </Grid>
-                </Grid>
+              </Grid> 
 
-              <Grid item container direction="column" justify="center" alignItems="center"spacing={5}>
-              <Grid item>
-                <img src="https://b.zmtcdn.com/web_assets/8313a97515fcb0447d2d77c276532a511583262271.png" 
+              <Grid item container justify="flex-end" className={classes.btngrp}>
+                <Grid item>
+                  <Button className={classes.btn} >Login</Button>
+                </Grid>
+                <Grid item  > 
+                  <Button className={classes.btn} >SignUp</Button>
+                </Grid>
+              </Grid>
+           
+
+              <Grid item container direction="column" justify="center" alignItems="center"spacing={4}>
+                  <Grid item>
+                  <img src="https://b.zmtcdn.com/web_assets/8313a97515fcb0447d2d77c276532a511583262271.png" 
                     className={classes.logo} alt="zomato-logo" />
-              </Grid>
+                  </Grid>
+
               <Grid item container alignItems="baseline"  justify="center" spacing={2}>
-                <Grid item>
-                  <Typography variant="h4">
-                  Discover the best food &amp; drinks in
-                  </Typography>
+                 <Grid item>
+                    <Typography variant="h4">
+                   Discover the best food &amp; drinks in
+                   </Typography>
+                 </Grid>
+                  <Grid item>
+                  <Typography variant="h4">Hyderabad</Typography>
+                  </Grid>
                 </Grid>
-                <Grid item>
-                 <Typography variant="h4">Hyderabad</Typography>
-                </Grid>
+
+              <Grid item className={classes.search}>
+                  <SearchBar />
               </Grid>
 
-            <Grid item className={classes.search}>
-              <SearchBar />
-            </Grid>
            </Grid>
           </Grid>
-          <Grid item>
-            <RouteCollectionItems />
-          </Grid>       
+            <Grid item>
+               <RouteCollectionItems />
+             </Grid>       
       </Grid>
     );
 }

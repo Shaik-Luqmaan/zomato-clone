@@ -20,6 +20,9 @@ const useStyles = makeStyles({
     },
     title:{
         paddingLeft: "40px",
+    },
+    collection: {
+      paddingLeft:"20px"
     }
   });
 
@@ -47,7 +50,7 @@ function Collections(props) {
               </Grid>
             </Grid>
           </Grid>
-          <Grid item>
+          <Grid item className={classes.collection}>
               <CollectionItems />
           </Grid>
         </Grid>
