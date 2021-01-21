@@ -13,9 +13,10 @@ import auth from "../../../auth/initAuth";
 const useStyles = makeStyles((theme) => ({
     root: {
         backgroundColor: "white",
-        width: '400px',
+        width: '450px',
+        height:"450px",
         borderRadius: "10px",
-        padding: "20px 20px",
+        padding: "10px 10px",
     },
     form: {
         width: "100%", 
@@ -45,7 +46,7 @@ const useStyles = makeStyles((theme) => ({
         textTransform: "capitalize",
         padding: "5px",
         fontSize: "18px",
-        width: "360px",
+        width: "100%",
       },
       divide:{
         marginTop:"10px"
@@ -54,6 +55,9 @@ const useStyles = makeStyles((theme) => ({
         padding: "7px",
         color: "rgb(255,0,0,.7)",
       },
+      new:{
+        marginTop:"10px"
+      }
     
   }));
 
@@ -83,7 +87,7 @@ function LoginPage(props) {
     return (
     <div className={classes.popup}>
       <Grid container justify="center">
-        <Grid container className={classes.root}>
+        <Grid container spacing={5} direction="column" className={classes.root}>
          <Grid item container alignItems="baseline">
             <Grid item sm>
                  <Typography variant="h4">Login</Typography>
@@ -123,7 +127,7 @@ function LoginPage(props) {
 
             </form>
 
-              <Grid item className={classes.divide}>
+              <Grid item className={classes.new}>
                 <Typography variant="subtitle1">
                     New to zomato ? 
                 </Typography>

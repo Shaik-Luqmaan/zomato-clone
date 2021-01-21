@@ -43,10 +43,13 @@ const useStyles = makeStyles({
     btn:{
       color:"white",
       textAlign:"bottom"  ,
-  },
-  item:{
-    display:"inline",
-  },
+    },
+    item:{
+      display:"inline",
+    },
+    text:{
+      fontWeight:"bold",
+    }
     
   });
 
@@ -112,7 +115,7 @@ function HomeView(props) {
                    </Typography>
                  </Grid>
                   <Grid item>
-                  <Typography variant="h4">Hyderabad</Typography>
+                  <Typography variant="h4" className={classes.text}>Hyderabad</Typography>
                   </Grid>
                 </Grid>
 
