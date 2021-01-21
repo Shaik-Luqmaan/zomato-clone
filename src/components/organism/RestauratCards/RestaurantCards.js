@@ -7,7 +7,7 @@ const useStyles = makeStyles({
     root: {
         padding: "10px 20px 0 30px",
     },
-    image: {
+    img: {
       margin: "20px 0",
     },    
   });
@@ -19,7 +19,7 @@ function RestaurantCards(props) {
     <Grid container direction="row" alignItems="stretch" spacing={3} className={classes.root}>
         {RestaurantList.map((value, index) => {
           return (
-            <Grid item id={index} md={4} sm={6} xs={12} key={index} className={classes.image}>
+            <Grid item id={index} md={4} sm={6} xs={12} key={index} className={classes.img}>
               <RestaurantCard {...value}></RestaurantCard>
             </Grid>
           );

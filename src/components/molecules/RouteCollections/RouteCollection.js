@@ -14,13 +14,13 @@ const useStyles = makeStyles({
         transform: "scale(1.08)",
       },
     },
-    image: {
+    img: {
       objectFit: "cover",
       width: "100%",
-      height: "150px",
+      height: "180px",
       borderRadius: "15px 15px 0 0",
     },
-    content: {
+    text: {
       padding: "8px 8px 15px 15px",
       color: "rgb(0,0,0,.8)",
     },
@@ -37,11 +37,11 @@ function RouteCollection(props) {
      >
       <Grid item>
         <img alt="Route Card image" 
-            className={classes.image} 
+            className={classes.img} 
             src={props.img} />
       </Grid>
 
-      <Grid item className={classes.content}>
+      <Grid item className={classes.text}>
         <Typography {...props} variant="h6">
           {props.title}
         </Typography>

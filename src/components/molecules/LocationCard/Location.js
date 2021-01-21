@@ -19,12 +19,11 @@ const useStyles = makeStyles({
       "&:hover": {
         boxShadow: "1px 2px 6px rgb(100, 100, 100, 0.2)",
       },
-    arrowIcon: {
+    arrow: {
       fontSize: "20px",
       opacity: .7,
     }, 
 }});
-
 
 function Location(props) {
     const classes = useStyles();
@@ -36,7 +35,7 @@ function Location(props) {
     </Typography>
     </Grid>
     <Grid item>
-    <KeyboardArrowRightIcon className={classes.arrowIcon}/>
+    <KeyboardArrowRightIcon className={classes.arrow}/>
     </Grid>
   </Grid>
   )

@@ -15,6 +15,10 @@ const useStyles = makeStyles({
         color: "white",
         cursor: "pointer",
       },
+      arrow: {
+        position: "relative",
+        top: "8px",
+      },
       large: {
         height: "300px",
         width: "100%"
@@ -22,10 +26,7 @@ const useStyles = makeStyles({
       content: {
         padding: "15px",
       },
-      arrowIcon: {
-        position: "relative",
-        top: "8px",
-      },
+      
 })
 
 function CollectionCard(props) {
@@ -50,7 +51,7 @@ function CollectionCard(props) {
         </Typography>
         <Typography {...props} variant="subtitle2">
           {props.placesCount} 
-          <ArrowRightIcon className={classes.arrowIcon} fontSize="small" />
+          <ArrowRightIcon className={classes.arrow} fontSize="small" />
         </Typography>
       </Grid>
     </Grid>
