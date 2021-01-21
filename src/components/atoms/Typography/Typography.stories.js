@@ -15,26 +15,24 @@ Heading.args = {
   children: "Discover the best food & drinks in",
   variant: "h4",
 };
-
-export const City = Template.bind({});
-City.args = {
-  children: "Hyderabad",
-  variant: "h5"
-}
-
 export const LogInOrOut = Template.bind({});
 LogInOrOut.args = {
   children: "Login",
   variant: "h6"
 }
 
-export const AppLink = Template.bind({});
-AppLink.args = {
+export const App = Template.bind({});
+App.args = {
   children: "Get the App",
   variant: "subtitle2",
   mode: "link",
 }
 
+export const City = Template.bind({});
+City.args = {
+  children: "Hyderabad",
+  variant: "h5"
+}
 
 export const ViewContent = Template.bind({});
 ViewContent.args = {

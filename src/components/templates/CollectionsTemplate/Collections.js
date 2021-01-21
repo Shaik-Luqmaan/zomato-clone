@@ -38,7 +38,9 @@ function Collections(props) {
             </Grid>
             <Grid item container alignItems="flex-end" justify="flex-end" lg={3} className={classes.link}>
               <Grid item>
-                <Typography mode="link" variant="subtitle1">All Collections in Hyderabad</Typography>
+                <Typography mode="link" variant="subtitle1">
+                  All Collections in Hyderabad
+                </Typography>
               </Grid>
               <Grid item>
                 <ArrowRightIcon fontSize="small" />

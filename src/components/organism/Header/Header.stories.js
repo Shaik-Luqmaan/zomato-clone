@@ -6,11 +6,9 @@ export default {
     component: Header,
 }
 
-
 const Template = ({...args})=>(
     <Header {...args} />
 );
-
 
 export const Primary = Template.bind({});
 Primary.args = {

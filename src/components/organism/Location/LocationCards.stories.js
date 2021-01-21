@@ -6,11 +6,9 @@ export default {
     component: LocationCards,
 }
 
-
 const Template = ({...args})=>(
     <LocationCards {...args} />
 );
-
 
 export const Primary = Template.bind({});
 Primary.args = {

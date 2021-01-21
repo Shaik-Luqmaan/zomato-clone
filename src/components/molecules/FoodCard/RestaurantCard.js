@@ -30,7 +30,6 @@ const useStyles = makeStyles({
   }
 })
 
-
 function RestaurantCard(props) {
     const classes = useStyles();
   return (
