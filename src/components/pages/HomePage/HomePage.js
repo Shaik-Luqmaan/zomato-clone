@@ -9,7 +9,7 @@ const HomePage = (props) => {
   return (
     <Grid container direction="column">
       <Grid item>
-        <HomeView />
+        <HomeView {...props}/>
       </Grid>
       <Grid item>
         <Collections />
