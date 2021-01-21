@@ -36,7 +36,7 @@ function RouteCollection(props) {
         className={classes.root}
      >
       <Grid item>
-        <img alt="Route Card image" 
+        <img alt="Route Card" 
             className={classes.img} 
             src={props.img} />
       </Grid>

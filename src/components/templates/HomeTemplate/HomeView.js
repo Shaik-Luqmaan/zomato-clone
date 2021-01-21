@@ -8,7 +8,6 @@ import GetAppIcon from '@material-ui/icons/GetApp';
 import { Button } from '@material-ui/core';
 import auth from "../../../auth/initAuth";
 import LoginPage from '../../organism/Login/LoginPage';
-import SignUpPage from '../../organism/SignUpPage/SignUpPage'
 
 const useStyles = makeStyles({
     root: {
@@ -47,7 +46,7 @@ const useStyles = makeStyles({
   },
   item:{
     display:"inline",
-},
+  },
     
   });
 

@@ -7,7 +7,6 @@ import Typography from "../../atoms/Typography/Typography";
 import CloseIcon from '@material-ui/icons/Close';
 import Divider from "@material-ui/core/Divider";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {  faEnvelopeOpen} from "@fortawesome/free-solid-svg-icons";
 import {  faGoogle } from "@fortawesome/free-brands-svg-icons";
 import auth from "../../../auth/initAuth";
 
@@ -72,7 +71,7 @@ function LoginPage(props) {
         setPassword(e.target.value);
     };
 
-    const _handleSubmit = (e, data) => {
+    const _handleSubmit = (e) => {
         e.preventDefault();
         auth.login(email, password);
         
