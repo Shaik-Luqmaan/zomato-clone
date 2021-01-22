@@ -1,9 +1,10 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import { Grid } from "@material-ui/core";
+import { Grid,Button } from "@material-ui/core";
 import Typography from "../../atoms/Typography/Typography";
 import SearchBar from "../../organism/SearchBar/SearchBar";
 import {Link} from 'react-router-dom';
+import auth from "../../../auth/initAuth";
 
 const useStyles = makeStyles({
     root: {
@@ -16,7 +17,20 @@ const useStyles = makeStyles({
     faded: {
       color: "rgb(100,100,100,.4)",
     },
+    button:{
+      margin: "15px 0px 10px 0",
+      borderRadius: "5px",
+      textTransform: "capitalize",
+      padding: "5px",
+      fontSize: "18px",
+      width: "100%",
+    },
 });
+
+const logout = () => {
+  auth.logout();
+  window.location.replace("http://localhost:3000/");
+};
 
 function Header(props) {
     const classes = useStyles();
@@ -33,15 +47,8 @@ function Header(props) {
           <SearchBar/>
         </Grid>
         <Grid item lg={2} justify="flex-end" container direction="row" spacing={2}>
-          <Grid item >
-            <Typography mode="link" variant="h6">
-              Login
-            </Typography>
-          </Grid>
-          <Grid item >
-            <Typography mode="link" variant="h6">
-              Sign Up
-            </Typography>
+          <Grid item onClick={logout}>
+            <Button color="secondary" className={classes.button}>Logout</Button>
           </Grid>
         </Grid>
       </Grid>
