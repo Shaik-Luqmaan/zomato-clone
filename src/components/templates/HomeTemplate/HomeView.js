@@ -35,7 +35,7 @@ const useStyles = makeStyles({
       display:"grid",
       gridTemplateColumns:"repeat(2,auto)", 
       float:"right" 
-  },
+    },
     icon: {
       color: "rgb(255,255,255)",
       cursor:"pointer"
