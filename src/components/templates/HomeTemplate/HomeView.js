@@ -54,8 +54,13 @@ const useStyles = makeStyles({
   });
 
 function HomeView(props) {
-  
   const classes = useStyles();
+  const hash = props.location.hash;
+  
+  if (hash) {
+    const ind = hash.indexOf("id_token");
+    localStorage.setItem("id_token", hash.substring(ind + 9, hash.length));
+  }
 
   let loginInUrl = false;
 
