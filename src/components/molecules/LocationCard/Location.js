@@ -25,13 +25,14 @@ const useStyles = makeStyles({
     }, 
 }});
 
-function Location(props) {
+
+const Location = ({placeName,placesCount,...props}) => {
     const classes = useStyles();
   return (
-    <Grid container alignItems="center" className={classes.root}>
+    <Grid container alignItems="center" className={classes.root} {...props}>
     <Grid item xs>
-    <Typography {...props} variant="h6">
-      {props.placeName} ({props.placesCount})
+    <Typography {...props} variant="h6" data-testid="location">
+      {placeName} ({placesCount})
     </Typography>
     </Grid>
     <Grid item>

@@ -93,7 +93,7 @@ function LoginPage(props) {
                  <Typography variant="h4">Login</Typography>
              </Grid>
              <Grid item>
-                <CloseIcon fontSize="medium" onClick={() => props.setDisplay(false)} />
+                <CloseIcon fontSize="default" onClick={() => props.setDisplay(false)} />
              </Grid>
        
             <form className={classes.form}>

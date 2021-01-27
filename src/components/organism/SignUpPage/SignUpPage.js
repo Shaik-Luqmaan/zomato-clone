@@ -85,7 +85,7 @@ function SignUpPage(props) {
                  <Typography variant="h4">Signup</Typography>
              </Grid>
              <Grid item>
-                <CloseIcon fontSize="medium" style={{curosr:"pointer"}}
+                <CloseIcon fontSize="default" style={{curosr:"pointer"}}
                 onClick={() => props.setDisplay(false)} />
              </Grid>
        

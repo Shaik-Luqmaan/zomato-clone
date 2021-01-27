@@ -44,7 +44,7 @@ function RestaurantCard(props) {
     </Grid>
 
     <Grid item className={classes.content}>
-      <Typography variant="h6">{props.title}</Typography>
+      <Typography variant="h6" data-testid="title">{props.title}</Typography>
     </Grid>
 
     <Grid item container direction="row" alignItems="center">
@@ -54,22 +54,22 @@ function RestaurantCard(props) {
         precision={0.5}
       />
 
-      <Box className={classes.rating}>
-      <Typography >{props.rating}</Typography>
+      <Box className={classes.rating} >
+      <Typography  data-testid="rating">{props.rating}</Typography>
       </Box>
 
-      <Box className={classes.reviews}>
-      <Typography>({props.reviews} Reviews)</Typography>
+      <Box className={classes.reviews} >
+      <Typography data-testid="reviews">({props.reviews} Reviews)</Typography>
       </Box>
 
     </Grid>
 
     <Grid item className={classes.cuisine}>
-      <Typography >{props.cuisine}</Typography>
+      <Typography data-testid="cuisine" >{props.cuisine}</Typography>
     </Grid>
 
     <Grid item className={classes.cost}>
-      <Typography >
+      <Typography data-testid="cost">
         Rs. {props.cost} per person
         <FiberManualRecordIcon style={{ fontSize: "7px", color: "rgb(100,100,100,.9)", padding: "4px 10px",}} />
         {props.time} mins

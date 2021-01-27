@@ -30,7 +30,7 @@ function Collections(props) {
     const classes = useStyles();
     return (
         <Grid container direction="column" className={classes.root}>
-          <Grid item direction="row" className={classes.title}>
+          <Grid item className={classes.title}>
             <Typography variant="h4">Collections</Typography>
           </Grid>
           <Grid item container direction="row"> 

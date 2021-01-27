@@ -1,0 +1,245 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders snapshot correctly 1`] = `
+<div
+  className="makeStyles-popup-4"
+>
+  <div
+    className="MuiGrid-root MuiGrid-container MuiGrid-justify-xs-center"
+  >
+    <div
+      className="MuiGrid-root makeStyles-root-1 MuiGrid-container MuiGrid-spacing-xs-5 MuiGrid-direction-xs-column"
+    >
+      <div
+        className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-align-items-xs-baseline"
+      >
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-true"
+        >
+          <h4
+            className="MuiTypography-root MuiTypography-h4"
+          >
+            Login
+          </h4>
+        </div>
+        <div
+          className="MuiGrid-root MuiGrid-item"
+        >
+          <svg
+            aria-hidden={true}
+            className="MuiSvgIcon-root"
+            focusable="false"
+            onClick={[Function]}
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+            />
+          </svg>
+        </div>
+        <form
+          className="makeStyles-form-2"
+        >
+          <div
+            className="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+            data-testid="loginField"
+            onKeyUp={[Function]}
+          >
+            <div
+              className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-marginDense MuiOutlinedInput-marginDense"
+              onClick={[Function]}
+            >
+              <input
+                aria-invalid={false}
+                autoFocus={false}
+                className="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
+                disabled={false}
+                id="outlined-basic"
+                onAnimationStart={[Function]}
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                placeholder="Email"
+                required={true}
+                type="text"
+              />
+              <fieldset
+                aria-hidden={true}
+                className="PrivateNotchedOutline-root-9 MuiOutlinedInput-notchedOutline"
+                style={
+                  Object {
+                    "paddingLeft": 8,
+                  }
+                }
+              >
+                <legend
+                  className="PrivateNotchedOutline-legend-10"
+                  style={
+                    Object {
+                      "width": 0.01,
+                    }
+                  }
+                >
+                  <span
+                    dangerouslySetInnerHTML={
+                      Object {
+                        "__html": "&#8203;",
+                      }
+                    }
+                  />
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+          <br />
+          <br />
+          <div
+            className="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+            data-testid="loginField"
+            onKeyUp={[Function]}
+          >
+            <div
+              className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-marginDense MuiOutlinedInput-marginDense"
+              onClick={[Function]}
+            >
+              <input
+                aria-invalid={false}
+                autoFocus={false}
+                className="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
+                disabled={false}
+                id="outlined-basic"
+                onAnimationStart={[Function]}
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                placeholder="Password"
+                required={true}
+                type="password"
+              />
+              <fieldset
+                aria-hidden={true}
+                className="PrivateNotchedOutline-root-9 MuiOutlinedInput-notchedOutline"
+                style={
+                  Object {
+                    "paddingLeft": 8,
+                  }
+                }
+              >
+                <legend
+                  className="PrivateNotchedOutline-legend-10"
+                  style={
+                    Object {
+                      "width": 0.01,
+                    }
+                  }
+                >
+                  <span
+                    dangerouslySetInnerHTML={
+                      Object {
+                        "__html": "&#8203;",
+                      }
+                    }
+                  />
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+          <button
+            className="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-button-5 MuiButton-containedSecondary MuiButton-fullWidth"
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={0}
+            type="submit"
+          >
+            <span
+              className="MuiButton-label"
+            >
+               Log In
+            </span>
+          </button>
+          <hr
+            className="MuiDivider-root makeStyles-divide-6 MuiDivider-middle"
+          />
+          <button
+            className="MuiButtonBase-root MuiButton-root MuiButton-outlined makeStyles-button-5"
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            <span
+              className="MuiButton-label"
+            >
+              <svg
+                aria-hidden="true"
+                className="svg-inline--fa fa-google fa-w-16 makeStyles-icons-7"
+                data-icon="google"
+                data-prefix="fab"
+                focusable="false"
+                role="img"
+                style={Object {}}
+                viewBox="0 0 488 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z"
+                  fill="currentColor"
+                  style={Object {}}
+                />
+              </svg>
+              Continue with Google
+            </span>
+          </button>
+          <hr
+            className="MuiDivider-root makeStyles-divide-6 MuiDivider-middle"
+          />
+        </form>
+        <div
+          className="MuiGrid-root makeStyles-new-8 MuiGrid-item"
+        >
+          <h6
+            className="MuiTypography-root MuiTypography-subtitle1"
+          >
+            New to zomato ?
+          </h6>
+        </div>
+        <div
+          className="MuiGrid-root MuiGrid-item"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1"
+          >
+            <span
+              className="makeStyles-red-3"
+            >
+               Sign Up
+            </span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

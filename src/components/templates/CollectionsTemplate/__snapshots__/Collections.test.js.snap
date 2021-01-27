@@ -1,0 +1,226 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders snapshot correctly 1`] = `
+<div
+  className="MuiGrid-root makeStyles-root-1 MuiGrid-container MuiGrid-direction-xs-column"
+>
+  <div
+    className="MuiGrid-root makeStyles-title-4 MuiGrid-item"
+  >
+    <h4
+      className="MuiTypography-root MuiTypography-h4"
+    >
+      Collections
+    </h4>
+  </div>
+  <div
+    className="MuiGrid-root MuiGrid-container MuiGrid-item"
+  >
+    <div
+      className="MuiGrid-root makeStyles-text-3 MuiGrid-item MuiGrid-grid-lg-true"
+    >
+      <h6
+        className="MuiTypography-root MuiTypography-h6"
+      >
+        Explore curated lists of top restaurants, cafes, pubs, and bars in Hyderabad, based on trends.
+      </h6>
+    </div>
+    <div
+      className="MuiGrid-root makeStyles-link-2 MuiGrid-container MuiGrid-item MuiGrid-align-items-xs-flex-end MuiGrid-justify-xs-flex-end MuiGrid-grid-lg-3"
+    >
+      <div
+        className="MuiGrid-root MuiGrid-item"
+      >
+        <h6
+          className="MuiTypography-root MuiTypography-subtitle1"
+          mode="link"
+        >
+          All Collections in Hyderabad
+        </h6>
+      </div>
+      <div
+        className="MuiGrid-root MuiGrid-item"
+      >
+        <svg
+          aria-hidden={true}
+          className="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M10 17l5-5-5-5v10z"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+  <div
+    className="MuiGrid-root makeStyles-collection-5 MuiGrid-item"
+  >
+    <div
+      className="MuiGrid-root makeStyles-root-6 MuiGrid-container MuiGrid-spacing-xs-4"
+    >
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3"
+      >
+        <div
+          className="MuiGrid-root makeStyles-root-7 MuiGrid-container MuiGrid-align-items-xs-flex-end"
+          data-testid="main"
+          style={
+            Object {
+              "backgroundImage": "linear-gradient(rgba(0,0,0, 0.1), rgb(0, 0, 0, .6)), url(sweet.jpg)",
+            }
+          }
+        >
+          <div
+            className="MuiGrid-root makeStyles-content-10 MuiGrid-item"
+          >
+            <h6
+              className="MuiTypography-root MuiTypography-h6"
+              data-testid="text"
+            >
+              Sweet Tooth 2020
+            </h6>
+            <h6
+              className="MuiTypography-root MuiTypography-subtitle2"
+              data-testid="place"
+            >
+              9 Places
+              <svg
+                aria-hidden={true}
+                className="MuiSvgIcon-root makeStyles-arrow-8 MuiSvgIcon-fontSizeSmall"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M10 17l5-5-5-5v10z"
+                />
+              </svg>
+            </h6>
+          </div>
+        </div>
+      </div>
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3"
+      >
+        <div
+          className="MuiGrid-root makeStyles-root-7 MuiGrid-container MuiGrid-align-items-xs-flex-end"
+          data-testid="main"
+          style={
+            Object {
+              "backgroundImage": "linear-gradient(rgba(0,0,0, 0.1), rgb(0, 0, 0, .6)), url(most.jpg)",
+            }
+          }
+        >
+          <div
+            className="MuiGrid-root makeStyles-content-10 MuiGrid-item"
+          >
+            <h6
+              className="MuiTypography-root MuiTypography-h6"
+              data-testid="text"
+            >
+              Most Searched 2020
+            </h6>
+            <h6
+              className="MuiTypography-root MuiTypography-subtitle2"
+              data-testid="place"
+            >
+              28 Places
+              <svg
+                aria-hidden={true}
+                className="MuiSvgIcon-root makeStyles-arrow-8 MuiSvgIcon-fontSizeSmall"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M10 17l5-5-5-5v10z"
+                />
+              </svg>
+            </h6>
+          </div>
+        </div>
+      </div>
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3"
+      >
+        <div
+          className="MuiGrid-root makeStyles-root-7 MuiGrid-container MuiGrid-align-items-xs-flex-end"
+          data-testid="main"
+          style={
+            Object {
+              "backgroundImage": "linear-gradient(rgba(0,0,0, 0.1), rgb(0, 0, 0, .6)), url(trending.jpg)",
+            }
+          }
+        >
+          <div
+            className="MuiGrid-root makeStyles-content-10 MuiGrid-item"
+          >
+            <h6
+              className="MuiTypography-root MuiTypography-h6"
+              data-testid="text"
+            >
+              Best Openings of 2020
+            </h6>
+            <h6
+              className="MuiTypography-root MuiTypography-subtitle2"
+              data-testid="place"
+            >
+              25 Places
+              <svg
+                aria-hidden={true}
+                className="MuiSvgIcon-root makeStyles-arrow-8 MuiSvgIcon-fontSizeSmall"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M10 17l5-5-5-5v10z"
+                />
+              </svg>
+            </h6>
+          </div>
+        </div>
+      </div>
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3"
+      >
+        <div
+          className="MuiGrid-root makeStyles-root-7 MuiGrid-container MuiGrid-align-items-xs-flex-end"
+          data-testid="main"
+          style={
+            Object {
+              "backgroundImage": "linear-gradient(rgba(0,0,0, 0.1), rgb(0, 0, 0, .6)), url(collection_1.jpg)",
+            }
+          }
+        >
+          <div
+            className="MuiGrid-root makeStyles-content-10 MuiGrid-item"
+          >
+            <h6
+              className="MuiTypography-root MuiTypography-h6"
+              data-testid="text"
+            >
+              Trending this Week
+            </h6>
+            <h6
+              className="MuiTypography-root MuiTypography-subtitle2"
+              data-testid="place"
+            >
+              28 Places
+              <svg
+                aria-hidden={true}
+                className="MuiSvgIcon-root makeStyles-arrow-8 MuiSvgIcon-fontSizeSmall"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M10 17l5-5-5-5v10z"
+                />
+              </svg>
+            </h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -8,6 +8,7 @@ function TextFieldComponent(props) {
       InputProps={{ disableUnderline: true }}
       {...props}
       variant="standard"
+      data-testid="inputField"
     />
   );
 }

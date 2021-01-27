@@ -26,7 +26,7 @@ const useStyles = makeStyles({
     },
   });
 
-function RouteCollection(props) {
+const RouteCollection = ({ img, title, ...props }) => {
     const classes = useStyles();
     return (
     <Grid
@@ -34,16 +34,17 @@ function RouteCollection(props) {
         direction="column"
         alignItems="center"
         className={classes.root}
+        {...props}
      >
       <Grid item>
         <img alt="Route Card" 
             className={classes.img} 
-            src={props.img} />
+            src={img} />
       </Grid>
 
       <Grid item className={classes.text}>
-        <Typography {...props} variant="h6">
-          {props.title}
+        <Typography variant="h6" data-testid="sample">
+          {title}
         </Typography>
       </Grid>
 
