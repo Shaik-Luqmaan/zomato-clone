@@ -1,6 +1,6 @@
 import React , { useState } from 'react'
 import {Grid} from '@material-ui/core'
-import LoginField from '../../atoms/LoginField/LoginField'
+import TextField from "@material-ui/core/TextField";
 import Button from "@material-ui/core/Button";
 import { makeStyles } from "@material-ui/core/styles";
 import Typography from "../../atoms/Typography/Typography";
@@ -85,18 +85,30 @@ function SignUpPage(props) {
                  <Typography variant="h4">Signup</Typography>
              </Grid>
              <Grid item>
-                <CloseIcon fontSize="medium" style={{curosr:"pointer"}}
+                <CloseIcon fontSize="default" style={{curosr:"pointer"}}
                 onClick={() => props.setDisplay(false)} />
              </Grid>
        
             <form className={classes.form}>
 
-                <LoginField placeholder={"Email"} required
-                    onKeyUp={_handleEmailChange}/>
+            <TextField id="outlined-basic" 
+                  variant="outlined"
+                  fullWidth
+                  size="small"
+                  required
+                  placeholder={"Email"} required
+                    onKeyUp={_handleEmailChange}
+                    data-testid="email"/>
                 <br/><br/>
-                <LoginField placeholder={"Password"} 
-                    type="password" required
-                    onKeyUp={_handlePasswordChange}/>
+            <TextField id="outlined-basic" 
+              variant="outlined"
+              fullWidth
+              size="small"
+              required
+              placeholder={"Password"} 
+              type="password" required
+              onKeyUp={_handlePasswordChange}
+              data-testid="password"/>
 
                 <Button
                  type="submit"
@@ -105,6 +117,7 @@ function SignUpPage(props) {
                  className={classes.button}
                  variant="contained" 
                  onClick={_handleSubmit}
+                 data-testid="button"
                 > Sign In
                 </Button>
 

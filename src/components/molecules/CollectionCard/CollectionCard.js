@@ -4,7 +4,6 @@ import { Grid } from "@material-ui/core";
 import Typography from "../../atoms/Typography/Typography";
 import ArrowRightIcon from "@material-ui/icons/ArrowRight";
 
-
 const useStyles = makeStyles({
     root: {
         borderRadius: "0.6rem",
@@ -29,9 +28,15 @@ const useStyles = makeStyles({
       
 })
 
-function CollectionCard(props) {
-    const classes = useStyles();
-    let rootClass = classes.root;
+const CollectionCard = ({
+  text,
+  placesCount,
+  img,
+  ...props
+})=>{
+
+  const classes = useStyles();
+  let rootClass = classes.root;
 
   if (props.size === "large") {
     rootClass += " " + classes.large;
@@ -42,15 +47,17 @@ function CollectionCard(props) {
       alignItems="flex-end"
       className={rootClass}
       style={{
-        backgroundImage: `linear-gradient(rgba(0,0,0, 0.1), rgb(0, 0, 0, .6)), url(${props.img})`,
+        backgroundImage: `linear-gradient(rgba(0,0,0, 0.1), rgb(0, 0, 0, .6)), url(${img})`,
       }}
+      data-testid="main"
+      {...props}
     >
       <Grid item className={classes.content}>
-        <Typography {...props} variant="h6">
-          {props.text}
+        <Typography data-testid="text" variant="h6" >
+          {text}
         </Typography>
-        <Typography {...props} variant="subtitle2">
-          {props.placesCount} 
+        <Typography  variant="subtitle2" data-testid="place">
+          {placesCount} 
           <ArrowRightIcon className={classes.arrow} fontSize="small" />
         </Typography>
       </Grid>

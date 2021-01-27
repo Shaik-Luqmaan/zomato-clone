@@ -52,7 +52,7 @@ const useStyles = makeStyles({
 
 function Headings(props) {
     const classes = useStyles();
-
+    
     let activeType = 0;
     if (props.heading) {
       activeType = props.heading;
@@ -80,15 +80,6 @@ function Headings(props) {
         
             {activeType > 0 && (<Grid items><Collections /></Grid>)}
 
-        <Grid container direction="row" >    
-            {tabList.map((tab,index) =>{
-                return(
-                    <Grid items className={classes.tab}>
-                        <Typography variant="subtitle1">{tab.name}</Typography>
-                    </Grid> 
-                )
-            })}           
-        </Grid>
             <Grid item className={classes.text}>
                 <Typography variant="h4">
                     {headingsList[activeType].title} Restaurants in Hyderabad
@@ -113,21 +104,6 @@ const headingsList = [
     },
 ];
 
-const tabList = [
-    {
-        name: "Filter"
-    },
-    {
-        name: "Offers"
-    },
-    {
-        name: "Distance"
-    }, 
-    {
-        name: "Online"
-    },
-
-]
 
 export default Headings
 

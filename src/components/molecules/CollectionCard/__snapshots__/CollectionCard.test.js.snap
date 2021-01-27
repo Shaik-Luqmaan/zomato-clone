@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="MuiGrid-root makeStyles-root-1 MuiGrid-container MuiGrid-align-items-xs-flex-end"
+  data-testid="main"
+  style={
+    Object {
+      "backgroundImage": "linear-gradient(rgba(0,0,0, 0.1), rgb(0, 0, 0, .6)), url(collection_1.jpg)",
+    }
+  }
+>
+  <div
+    className="MuiGrid-root makeStyles-content-4 MuiGrid-item"
+  >
+    <h6
+      className="MuiTypography-root MuiTypography-h6"
+      data-testid="text"
+    >
+      Most Searched 2020
+    </h6>
+    <h6
+      className="MuiTypography-root MuiTypography-subtitle2"
+      data-testid="place"
+    >
+      28 Places
+      <svg
+        aria-hidden={true}
+        className="MuiSvgIcon-root makeStyles-arrow-2 MuiSvgIcon-fontSizeSmall"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M10 17l5-5-5-5v10z"
+        />
+      </svg>
+    </h6>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot 2 1`] = `
+<div
+  className="MuiGrid-root makeStyles-root-1 MuiGrid-container MuiGrid-align-items-xs-flex-end"
+  data-testid="main"
+  style={
+    Object {
+      "backgroundImage": "linear-gradient(rgba(0,0,0, 0.1), rgb(0, 0, 0, .6)), url(undefined)",
+    }
+  }
+>
+  <div
+    className="MuiGrid-root makeStyles-content-4 MuiGrid-item"
+  >
+    <h6
+      className="MuiTypography-root MuiTypography-h6"
+      data-testid="text"
+    />
+    <h6
+      className="MuiTypography-root MuiTypography-subtitle2"
+      data-testid="place"
+    >
+      <svg
+        aria-hidden={true}
+        className="MuiSvgIcon-root makeStyles-arrow-2 MuiSvgIcon-fontSizeSmall"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M10 17l5-5-5-5v10z"
+        />
+      </svg>
+    </h6>
+  </div>
+</div>
+`;

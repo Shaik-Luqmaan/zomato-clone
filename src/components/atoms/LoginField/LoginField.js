@@ -9,6 +9,7 @@ function LoginField(props) {
             size="small"
             required
             {...props}
+             data-testid="loginField"
             />
     )
 }

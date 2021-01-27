@@ -1,0 +1,1176 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot correctly 1`] = `
+<div
+  className="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-column"
+>
+  <div
+    className="MuiGrid-root MuiGrid-item"
+  >
+    <div
+      className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-7"
+    >
+      <div
+        className="MuiGrid-root makeStyles-root-1 MuiGrid-container MuiGrid-item"
+      >
+        <div
+          className="MuiGrid-root makeStyles-app-2 MuiGrid-container MuiGrid-item"
+        >
+          <div
+            className="MuiGrid-root MuiGrid-item"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root makeStyles-icon-6"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"
+              />
+            </svg>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item"
+          >
+            <h6
+              className="MuiTypography-root MuiTypography-subtitle1"
+              mode="link"
+            >
+              Get the App
+            </h6>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-root makeStyles-btngrp-5 MuiGrid-container MuiGrid-item MuiGrid-justify-xs-flex-end"
+        >
+          <div
+            className="MuiGrid-root MuiGrid-item"
+          >
+            <button
+              className="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-btn-7"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onDragLeave={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex={0}
+              type="button"
+            >
+              <span
+                className="MuiButton-label"
+              >
+                Login
+              </span>
+            </button>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item"
+          >
+            <button
+              className="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-btn-7"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onDragLeave={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex={0}
+              type="button"
+            >
+              <span
+                className="MuiButton-label"
+              >
+                SignUp
+              </span>
+            </button>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4 MuiGrid-item MuiGrid-direction-xs-column MuiGrid-align-items-xs-center MuiGrid-justify-xs-center"
+        >
+          <div
+            className="MuiGrid-root MuiGrid-item"
+          >
+            <img
+              alt="zomato-logo"
+              className="makeStyles-logo-3"
+              src="https://b.zmtcdn.com/web_assets/8313a97515fcb0447d2d77c276532a511583262271.png"
+            />
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-item MuiGrid-align-items-xs-baseline MuiGrid-justify-xs-center"
+          >
+            <div
+              className="MuiGrid-root MuiGrid-item"
+            >
+              <h4
+                className="MuiTypography-root MuiTypography-h4"
+              >
+                Discover the best food & drinks in
+              </h4>
+            </div>
+            <div
+              className="MuiGrid-root MuiGrid-item"
+            >
+              <h4
+                className="MuiTypography-root makeStyles-text-9 MuiTypography-h4"
+              >
+                Hyderabad
+              </h4>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-root makeStyles-search-4 MuiGrid-item"
+          >
+            <div
+              className="MuiGrid-root makeStyles-root-10 MuiGrid-container MuiGrid-align-items-xs-center"
+            >
+              <div
+                className="MuiGrid-root MuiGrid-item"
+              >
+                <svg
+                  aria-hidden={true}
+                  className="MuiSvgIcon-root makeStyles-icon-11"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"
+                  />
+                </svg>
+              </div>
+              <div
+                className="MuiGrid-root makeStyles-input-12 MuiGrid-item"
+              >
+                <div
+                  className="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+                  data-testid="inputField"
+                >
+                  <div
+                    className="MuiInputBase-root MuiInput-root MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
+                    onClick={[Function]}
+                  >
+                    <input
+                      aria-invalid={false}
+                      autoFocus={false}
+                      className="MuiInputBase-input MuiInput-input"
+                      disabled={false}
+                      onAnimationStart={[Function]}
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      placeholder="Hyderabad"
+                      required={false}
+                      type="text"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                className="MuiGrid-root makeStyles-arrow-14 MuiGrid-item"
+              >
+                <svg
+                  aria-hidden={true}
+                  className="MuiSvgIcon-root"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M7 10l5 5 5-5z"
+                  />
+                </svg>
+              </div>
+              <div
+                className="MuiGrid-root MuiGrid-item"
+              >
+                <div
+                  className="makeStyles-line-13"
+                />
+              </div>
+              <div
+                className="MuiGrid-root makeStyles-textField-15 MuiGrid-item MuiGrid-grid-sm-true"
+              >
+                <div
+                  className="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+                  data-testid="inputField"
+                >
+                  <div
+                    className="MuiInputBase-root MuiInput-root MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl MuiInputBase-marginDense MuiInput-marginDense"
+                    onClick={[Function]}
+                  >
+                    <input
+                      aria-invalid={false}
+                      autoFocus={false}
+                      className="MuiInputBase-input MuiInput-input MuiInputBase-inputMarginDense MuiInput-inputMarginDense"
+                      disabled={false}
+                      onAnimationStart={[Function]}
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      placeholder="Search for restaurant, cuisine or a dish"
+                      required={false}
+                      type="text"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                className="MuiGrid-root MuiGrid-item"
+              >
+                <svg
+                  aria-hidden={true}
+                  className="MuiSvgIcon-root makeStyles-searchIcon-16"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="MuiGrid-root MuiGrid-item"
+      >
+        <div
+          className="MuiGrid-root makeStyles-root-17 MuiGrid-container MuiGrid-spacing-xs-1 MuiGrid-justify-xs-space-evenly"
+        >
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3"
+          >
+            <a
+              href="/hyderabad/delivery"
+              onClick={[Function]}
+              style={
+                Object {
+                  "textDecoration": "none",
+                }
+              }
+            >
+              <div
+                className="MuiGrid-root makeStyles-root-18 MuiGrid-container MuiGrid-direction-xs-column MuiGrid-align-items-xs-center"
+              >
+                <div
+                  className="MuiGrid-root MuiGrid-item"
+                >
+                  <img
+                    alt="Route Card"
+                    className="makeStyles-img-19"
+                    src="https://b.zmtcdn.com/webFrontend/64dffaa58ffa55a377cdf42b6a690e721585809275.png"
+                  />
+                </div>
+                <div
+                  className="MuiGrid-root makeStyles-text-20 MuiGrid-item"
+                >
+                  <h6
+                    className="MuiTypography-root MuiTypography-h6"
+                    data-testid="sample"
+                  >
+                    Order Food Online
+                  </h6>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3"
+          >
+            <a
+              href="/hyderabad/dine-out"
+              onClick={[Function]}
+              style={
+                Object {
+                  "textDecoration": "none",
+                }
+              }
+            >
+              <div
+                className="MuiGrid-root makeStyles-root-18 MuiGrid-container MuiGrid-direction-xs-column MuiGrid-align-items-xs-center"
+              >
+                <div
+                  className="MuiGrid-root MuiGrid-item"
+                >
+                  <img
+                    alt="Route Card"
+                    className="makeStyles-img-19"
+                    src="https://b.zmtcdn.com/webFrontend/95f005332f5b9e71b9406828b63335331585809309.png"
+                  />
+                </div>
+                <div
+                  className="MuiGrid-root makeStyles-text-20 MuiGrid-item"
+                >
+                  <h6
+                    className="MuiTypography-root MuiTypography-h6"
+                    data-testid="sample"
+                  >
+                    Go out for a meal
+                  </h6>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3"
+          >
+            <a
+              href="/hyderabad/night-life"
+              onClick={[Function]}
+              style={
+                Object {
+                  "textDecoration": "none",
+                }
+              }
+            >
+              <div
+                className="MuiGrid-root makeStyles-root-18 MuiGrid-container MuiGrid-direction-xs-column MuiGrid-align-items-xs-center"
+              >
+                <div
+                  className="MuiGrid-root MuiGrid-item"
+                >
+                  <img
+                    alt="Route Card"
+                    className="makeStyles-img-19"
+                    src="https://b.zmtcdn.com/webFrontend/8ff4212b71b948ed5b6d2ce0d2bc99981594031410.png"
+                  />
+                </div>
+                <div
+                  className="MuiGrid-root makeStyles-text-20 MuiGrid-item"
+                >
+                  <h6
+                    className="MuiTypography-root MuiTypography-h6"
+                    data-testid="sample"
+                  >
+                    Night Life & CLubs
+                  </h6>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3"
+          >
+            <div
+              className="MuiGrid-root makeStyles-root-18 MuiGrid-container MuiGrid-direction-xs-column MuiGrid-align-items-xs-center"
+            >
+              <div
+                className="MuiGrid-root MuiGrid-item"
+              >
+                <img
+                  alt="Route Card"
+                  className="makeStyles-img-19"
+                  src="https://b.zmtcdn.com/webFrontend/b256d0dd8a29f9e0623ecaaea910534d1585809352.png"
+                />
+              </div>
+              <div
+                className="MuiGrid-root makeStyles-text-20 MuiGrid-item"
+              >
+                <h6
+                  className="MuiTypography-root MuiTypography-h6"
+                  data-testid="sample"
+                >
+                  Zomato Pro
+                </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="MuiGrid-root MuiGrid-item"
+  >
+    <div
+      className="MuiGrid-root makeStyles-root-21 MuiGrid-container MuiGrid-direction-xs-column"
+    >
+      <div
+        className="MuiGrid-root makeStyles-title-24 MuiGrid-item"
+      >
+        <h4
+          className="MuiTypography-root MuiTypography-h4"
+        >
+          Collections
+        </h4>
+      </div>
+      <div
+        className="MuiGrid-root MuiGrid-container MuiGrid-item"
+      >
+        <div
+          className="MuiGrid-root makeStyles-text-23 MuiGrid-item MuiGrid-grid-lg-true"
+        >
+          <h6
+            className="MuiTypography-root MuiTypography-h6"
+          >
+            Explore curated lists of top restaurants, cafes, pubs, and bars in Hyderabad, based on trends.
+          </h6>
+        </div>
+        <div
+          className="MuiGrid-root makeStyles-link-22 MuiGrid-container MuiGrid-item MuiGrid-align-items-xs-flex-end MuiGrid-justify-xs-flex-end MuiGrid-grid-lg-3"
+        >
+          <div
+            className="MuiGrid-root MuiGrid-item"
+          >
+            <h6
+              className="MuiTypography-root MuiTypography-subtitle1"
+              mode="link"
+            >
+              All Collections in Hyderabad
+            </h6>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M10 17l5-5-5-5v10z"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div
+        className="MuiGrid-root makeStyles-collection-25 MuiGrid-item"
+      >
+        <div
+          className="MuiGrid-root makeStyles-root-26 MuiGrid-container MuiGrid-spacing-xs-4"
+        >
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3"
+          >
+            <div
+              className="MuiGrid-root makeStyles-root-27 MuiGrid-container MuiGrid-align-items-xs-flex-end"
+              data-testid="main"
+              style={
+                Object {
+                  "backgroundImage": "linear-gradient(rgba(0,0,0, 0.1), rgb(0, 0, 0, .6)), url(sweet.jpg)",
+                }
+              }
+            >
+              <div
+                className="MuiGrid-root makeStyles-content-30 MuiGrid-item"
+              >
+                <h6
+                  className="MuiTypography-root MuiTypography-h6"
+                  data-testid="text"
+                >
+                  Sweet Tooth 2020
+                </h6>
+                <h6
+                  className="MuiTypography-root MuiTypography-subtitle2"
+                  data-testid="place"
+                >
+                  9 Places
+                  <svg
+                    aria-hidden={true}
+                    className="MuiSvgIcon-root makeStyles-arrow-28 MuiSvgIcon-fontSizeSmall"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M10 17l5-5-5-5v10z"
+                    />
+                  </svg>
+                </h6>
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3"
+          >
+            <div
+              className="MuiGrid-root makeStyles-root-27 MuiGrid-container MuiGrid-align-items-xs-flex-end"
+              data-testid="main"
+              style={
+                Object {
+                  "backgroundImage": "linear-gradient(rgba(0,0,0, 0.1), rgb(0, 0, 0, .6)), url(most.jpg)",
+                }
+              }
+            >
+              <div
+                className="MuiGrid-root makeStyles-content-30 MuiGrid-item"
+              >
+                <h6
+                  className="MuiTypography-root MuiTypography-h6"
+                  data-testid="text"
+                >
+                  Most Searched 2020
+                </h6>
+                <h6
+                  className="MuiTypography-root MuiTypography-subtitle2"
+                  data-testid="place"
+                >
+                  28 Places
+                  <svg
+                    aria-hidden={true}
+                    className="MuiSvgIcon-root makeStyles-arrow-28 MuiSvgIcon-fontSizeSmall"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M10 17l5-5-5-5v10z"
+                    />
+                  </svg>
+                </h6>
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3"
+          >
+            <div
+              className="MuiGrid-root makeStyles-root-27 MuiGrid-container MuiGrid-align-items-xs-flex-end"
+              data-testid="main"
+              style={
+                Object {
+                  "backgroundImage": "linear-gradient(rgba(0,0,0, 0.1), rgb(0, 0, 0, .6)), url(trending.jpg)",
+                }
+              }
+            >
+              <div
+                className="MuiGrid-root makeStyles-content-30 MuiGrid-item"
+              >
+                <h6
+                  className="MuiTypography-root MuiTypography-h6"
+                  data-testid="text"
+                >
+                  Best Openings of 2020
+                </h6>
+                <h6
+                  className="MuiTypography-root MuiTypography-subtitle2"
+                  data-testid="place"
+                >
+                  25 Places
+                  <svg
+                    aria-hidden={true}
+                    className="MuiSvgIcon-root makeStyles-arrow-28 MuiSvgIcon-fontSizeSmall"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M10 17l5-5-5-5v10z"
+                    />
+                  </svg>
+                </h6>
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3"
+          >
+            <div
+              className="MuiGrid-root makeStyles-root-27 MuiGrid-container MuiGrid-align-items-xs-flex-end"
+              data-testid="main"
+              style={
+                Object {
+                  "backgroundImage": "linear-gradient(rgba(0,0,0, 0.1), rgb(0, 0, 0, .6)), url(collection_1.jpg)",
+                }
+              }
+            >
+              <div
+                className="MuiGrid-root makeStyles-content-30 MuiGrid-item"
+              >
+                <h6
+                  className="MuiTypography-root MuiTypography-h6"
+                  data-testid="text"
+                >
+                  Trending this Week
+                </h6>
+                <h6
+                  className="MuiTypography-root MuiTypography-subtitle2"
+                  data-testid="place"
+                >
+                  28 Places
+                  <svg
+                    aria-hidden={true}
+                    className="MuiSvgIcon-root makeStyles-arrow-28 MuiSvgIcon-fontSizeSmall"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M10 17l5-5-5-5v10z"
+                    />
+                  </svg>
+                </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="MuiGrid-root MuiGrid-item"
+  >
+    <div
+      className="MuiGrid-root makeStyles-root-31 MuiGrid-container MuiGrid-direction-xs-column MuiGrid-align-items-xs-center"
+    >
+      <div
+        className="MuiGrid-root makeStyles-text-32 MuiGrid-item"
+      >
+        <h4
+          className="MuiTypography-root MuiTypography-h4"
+        >
+          Popular localities in and around Hyderabad
+        </h4>
+      </div>
+      <div
+        className="MuiGrid-root MuiGrid-item"
+      >
+        <div
+          className="MuiGrid-root makeStyles-root-33 MuiGrid-container MuiGrid-spacing-xs-2"
+        >
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4"
+          >
+            <div
+              className="MuiGrid-root makeStyles-root-34 MuiGrid-container MuiGrid-align-items-xs-center"
+            >
+              <div
+                className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true"
+              >
+                <h6
+                  className="MuiTypography-root MuiTypography-h6"
+                  data-testid="location"
+                >
+                  Tolichowki
+                   (
+                  540
+                  )
+                </h6>
+              </div>
+              <div
+                className="MuiGrid-root MuiGrid-item"
+              >
+                <svg
+                  aria-hidden={true}
+                  className="MuiSvgIcon-root"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4"
+          >
+            <div
+              className="MuiGrid-root makeStyles-root-34 MuiGrid-container MuiGrid-align-items-xs-center"
+            >
+              <div
+                className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true"
+              >
+                <h6
+                  className="MuiTypography-root MuiTypography-h6"
+                  data-testid="location"
+                >
+                  Mehdipatnam
+                   (
+                  451
+                  )
+                </h6>
+              </div>
+              <div
+                className="MuiGrid-root MuiGrid-item"
+              >
+                <svg
+                  aria-hidden={true}
+                  className="MuiSvgIcon-root"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4"
+          >
+            <div
+              className="MuiGrid-root makeStyles-root-34 MuiGrid-container MuiGrid-align-items-xs-center"
+            >
+              <div
+                className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true"
+              >
+                <h6
+                  className="MuiTypography-root MuiTypography-h6"
+                  data-testid="location"
+                >
+                  Asif Nagar
+                   (
+                  187
+                  )
+                </h6>
+              </div>
+              <div
+                className="MuiGrid-root MuiGrid-item"
+              >
+                <svg
+                  aria-hidden={true}
+                  className="MuiSvgIcon-root"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4"
+          >
+            <div
+              className="MuiGrid-root makeStyles-root-34 MuiGrid-container MuiGrid-align-items-xs-center"
+            >
+              <div
+                className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true"
+              >
+                <h6
+                  className="MuiTypography-root MuiTypography-h6"
+                  data-testid="location"
+                >
+                  Lakdikapool
+                   (
+                  122
+                  )
+                </h6>
+              </div>
+              <div
+                className="MuiGrid-root MuiGrid-item"
+              >
+                <svg
+                  aria-hidden={true}
+                  className="MuiSvgIcon-root"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4"
+          >
+            <div
+              className="MuiGrid-root makeStyles-root-34 MuiGrid-container MuiGrid-align-items-xs-center"
+            >
+              <div
+                className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true"
+              >
+                <h6
+                  className="MuiTypography-root MuiTypography-h6"
+                  data-testid="location"
+                >
+                  Nampally
+                   (
+                  48
+                  )
+                </h6>
+              </div>
+              <div
+                className="MuiGrid-root MuiGrid-item"
+              >
+                <svg
+                  aria-hidden={true}
+                  className="MuiSvgIcon-root"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4"
+          >
+            <div
+              className="MuiGrid-root makeStyles-root-34 MuiGrid-container MuiGrid-align-items-xs-center"
+            >
+              <div
+                className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true"
+              >
+                <h6
+                  className="MuiTypography-root MuiTypography-h6"
+                  data-testid="location"
+                >
+                  Jubilee Hills
+                   (
+                  363
+                  )
+                </h6>
+              </div>
+              <div
+                className="MuiGrid-root MuiGrid-item"
+              >
+                <svg
+                  aria-hidden={true}
+                  className="MuiSvgIcon-root"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4"
+          >
+            <div
+              className="MuiGrid-root makeStyles-root-34 MuiGrid-container MuiGrid-align-items-xs-center"
+            >
+              <div
+                className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true"
+              >
+                <h6
+                  className="MuiTypography-root MuiTypography-h6"
+                  data-testid="location"
+                >
+                  Gachibowli
+                   (
+                  584
+                  )
+                </h6>
+              </div>
+              <div
+                className="MuiGrid-root MuiGrid-item"
+              >
+                <svg
+                  aria-hidden={true}
+                  className="MuiSvgIcon-root"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4"
+          >
+            <div
+              className="MuiGrid-root makeStyles-root-34 MuiGrid-container MuiGrid-align-items-xs-center"
+            >
+              <div
+                className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true"
+              >
+                <h6
+                  className="MuiTypography-root MuiTypography-h6"
+                  data-testid="location"
+                >
+                  Hitech City
+                   (
+                  264
+                  )
+                </h6>
+              </div>
+              <div
+                className="MuiGrid-root MuiGrid-item"
+              >
+                <svg
+                  aria-hidden={true}
+                  className="MuiSvgIcon-root"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4"
+          >
+            <div
+              className="MuiGrid-root makeStyles-root-34 MuiGrid-container MuiGrid-align-items-xs-center"
+            >
+              <div
+                className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true"
+              >
+                <h6
+                  className="MuiTypography-root MuiTypography-h6"
+                  data-testid="location"
+                >
+                  Madhapur
+                   (
+                  93
+                  )
+                </h6>
+              </div>
+              <div
+                className="MuiGrid-root MuiGrid-item"
+              >
+                <svg
+                  aria-hidden={true}
+                  className="MuiSvgIcon-root"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4"
+          >
+            <div
+              className="MuiGrid-root makeStyles-root-34 MuiGrid-container MuiGrid-align-items-xs-center"
+            >
+              <div
+                className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true"
+              >
+                <h6
+                  className="MuiTypography-root MuiTypography-h6"
+                  data-testid="location"
+                >
+                  Banjara Hills
+                   (
+                  363
+                  )
+                </h6>
+              </div>
+              <div
+                className="MuiGrid-root MuiGrid-item"
+              >
+                <svg
+                  aria-hidden={true}
+                  className="MuiSvgIcon-root"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4"
+          >
+            <div
+              className="MuiGrid-root makeStyles-root-34 MuiGrid-container MuiGrid-align-items-xs-center"
+            >
+              <div
+                className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true"
+              >
+                <h6
+                  className="MuiTypography-root MuiTypography-h6"
+                  data-testid="location"
+                >
+                  Suncity
+                   (
+                  84
+                  )
+                </h6>
+              </div>
+              <div
+                className="MuiGrid-root MuiGrid-item"
+              >
+                <svg
+                  aria-hidden={true}
+                  className="MuiSvgIcon-root"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4"
+          >
+            <div
+              className="MuiGrid-root makeStyles-root-34 MuiGrid-container MuiGrid-align-items-xs-center"
+            >
+              <div
+                className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true"
+              >
+                <h6
+                  className="MuiTypography-root MuiTypography-h6"
+                  data-testid="location"
+                >
+                  Santosh Nagar
+                   (
+                  264
+                  )
+                </h6>
+              </div>
+              <div
+                className="MuiGrid-root MuiGrid-item"
+              >
+                <svg
+                  aria-hidden={true}
+                  className="MuiSvgIcon-root"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4"
+          >
+            <div
+              className="MuiGrid-root makeStyles-root-34 MuiGrid-container MuiGrid-align-items-xs-center"
+            >
+              <div
+                className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true"
+              >
+                <h6
+                  className="MuiTypography-root MuiTypography-h6"
+                  data-testid="location"
+                >
+                  Madhapur
+                   (
+                  93
+                  )
+                </h6>
+              </div>
+              <div
+                className="MuiGrid-root MuiGrid-item"
+              >
+                <svg
+                  aria-hidden={true}
+                  className="MuiSvgIcon-root"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4"
+          >
+            <div
+              className="MuiGrid-root makeStyles-root-34 MuiGrid-container MuiGrid-align-items-xs-center"
+            >
+              <div
+                className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true"
+              >
+                <h6
+                  className="MuiTypography-root MuiTypography-h6"
+                  data-testid="location"
+                >
+                  Kukatpally
+                   (
+                  1153
+                  )
+                </h6>
+              </div>
+              <div
+                className="MuiGrid-root MuiGrid-item"
+              >
+                <svg
+                  aria-hidden={true}
+                  className="MuiSvgIcon-root"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4"
+          >
+            <div
+              className="MuiGrid-root makeStyles-root-34 MuiGrid-container MuiGrid-align-items-xs-center"
+            >
+              <div
+                className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true"
+              >
+                <h6
+                  className="MuiTypography-root MuiTypography-h6"
+                  data-testid="location"
+                >
+                  Old City
+                   (
+                  166
+                  )
+                </h6>
+              </div>
+              <div
+                className="MuiGrid-root MuiGrid-item"
+              >
+                <svg
+                  aria-hidden={true}
+                  className="MuiSvgIcon-root"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,146 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders snapshot correctly 1`] = `
+<div
+  className="MuiGrid-root makeStyles-root-1 MuiGrid-container MuiGrid-spacing-xs-1 MuiGrid-justify-xs-space-evenly"
+>
+  <div
+    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3"
+  >
+    <a
+      href="/hyderabad/delivery"
+      onClick={[Function]}
+      style={
+        Object {
+          "textDecoration": "none",
+        }
+      }
+    >
+      <div
+        className="MuiGrid-root makeStyles-root-2 MuiGrid-container MuiGrid-direction-xs-column MuiGrid-align-items-xs-center"
+      >
+        <div
+          className="MuiGrid-root MuiGrid-item"
+        >
+          <img
+            alt="Route Card"
+            className="makeStyles-img-3"
+            src="https://b.zmtcdn.com/webFrontend/64dffaa58ffa55a377cdf42b6a690e721585809275.png"
+          />
+        </div>
+        <div
+          className="MuiGrid-root makeStyles-text-4 MuiGrid-item"
+        >
+          <h6
+            className="MuiTypography-root MuiTypography-h6"
+            data-testid="sample"
+          >
+            Order Food Online
+          </h6>
+        </div>
+      </div>
+    </a>
+  </div>
+  <div
+    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3"
+  >
+    <a
+      href="/hyderabad/dine-out"
+      onClick={[Function]}
+      style={
+        Object {
+          "textDecoration": "none",
+        }
+      }
+    >
+      <div
+        className="MuiGrid-root makeStyles-root-2 MuiGrid-container MuiGrid-direction-xs-column MuiGrid-align-items-xs-center"
+      >
+        <div
+          className="MuiGrid-root MuiGrid-item"
+        >
+          <img
+            alt="Route Card"
+            className="makeStyles-img-3"
+            src="https://b.zmtcdn.com/webFrontend/95f005332f5b9e71b9406828b63335331585809309.png"
+          />
+        </div>
+        <div
+          className="MuiGrid-root makeStyles-text-4 MuiGrid-item"
+        >
+          <h6
+            className="MuiTypography-root MuiTypography-h6"
+            data-testid="sample"
+          >
+            Go out for a meal
+          </h6>
+        </div>
+      </div>
+    </a>
+  </div>
+  <div
+    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3"
+  >
+    <a
+      href="/hyderabad/night-life"
+      onClick={[Function]}
+      style={
+        Object {
+          "textDecoration": "none",
+        }
+      }
+    >
+      <div
+        className="MuiGrid-root makeStyles-root-2 MuiGrid-container MuiGrid-direction-xs-column MuiGrid-align-items-xs-center"
+      >
+        <div
+          className="MuiGrid-root MuiGrid-item"
+        >
+          <img
+            alt="Route Card"
+            className="makeStyles-img-3"
+            src="https://b.zmtcdn.com/webFrontend/8ff4212b71b948ed5b6d2ce0d2bc99981594031410.png"
+          />
+        </div>
+        <div
+          className="MuiGrid-root makeStyles-text-4 MuiGrid-item"
+        >
+          <h6
+            className="MuiTypography-root MuiTypography-h6"
+            data-testid="sample"
+          >
+            Night Life & CLubs
+          </h6>
+        </div>
+      </div>
+    </a>
+  </div>
+  <div
+    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3"
+  >
+    <div
+      className="MuiGrid-root makeStyles-root-2 MuiGrid-container MuiGrid-direction-xs-column MuiGrid-align-items-xs-center"
+    >
+      <div
+        className="MuiGrid-root MuiGrid-item"
+      >
+        <img
+          alt="Route Card"
+          className="makeStyles-img-3"
+          src="https://b.zmtcdn.com/webFrontend/b256d0dd8a29f9e0623ecaaea910534d1585809352.png"
+        />
+      </div>
+      <div
+        className="MuiGrid-root makeStyles-text-4 MuiGrid-item"
+      >
+        <h6
+          className="MuiTypography-root MuiTypography-h6"
+          data-testid="sample"
+        >
+          Zomato Pro
+        </h6>
+      </div>
+    </div>
+  </div>
+</div>
+`;

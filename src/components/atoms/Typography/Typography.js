@@ -4,7 +4,7 @@ import Typography from "@material-ui/core/Typography";
 const TypographyComponent = (props) => {
 
     return (
-    <Typography variant={props.variant}>
+    <Typography variant={props.variant} {...props}>
       {props.children}
     </Typography>
   );
