@@ -9,6 +9,7 @@ import Divider from "@material-ui/core/Divider";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {  faGoogle } from "@fortawesome/free-brands-svg-icons";
 import auth from "../../../auth/initAuth";
+import TextField from "@material-ui/core/TextField";
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -98,12 +99,24 @@ function LoginPage(props) {
        
             <form className={classes.form}>
 
-                <LoginField placeholder={"Email"} required
-                    onKeyUp={_handleEmailChange}/>
+                <TextField id="outlined-basic" 
+                  variant="outlined"
+                  fullWidth
+                  size="small"
+                  required
+                  placeholder={"Email"} required
+                    onKeyUp={_handleEmailChange}
+                    data-testid="email"/>
                 <br/><br/>
-                <LoginField placeholder={"Password"} 
+                <TextField id="outlined-basic" 
+                    variant="outlined"
+                    fullWidth
+                    size="small"
+                    required
+                    placeholder={"Password"} 
                     type="password" required
-                    onKeyUp={_handlePasswordChange}/>
+                    onKeyUp={_handlePasswordChange}
+                    data-testid="password"/>
 
                 <Button
                  type="submit"
@@ -112,6 +125,7 @@ function LoginPage(props) {
                  className={classes.button}
                  variant="contained" 
                  onClick={_handleSubmit}
+                 data-testid="button"
                 > Log In
                 </Button>
 

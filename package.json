@@ -57,5 +57,18 @@
     "@storybook/preset-create-react-app": "^3.1.5",
     "@storybook/react": "^6.1.14",
     "react-test-renderer": "^17.0.1"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "!**/*.test.js",
+      "!**/*.stories.js",
+      "!src/auth/*.js",
+      "!src/index.js",
+      "!src/ScrollToTop.js",
+      "!src/reportWebVitals.js",
+      "!src/App.js",
+      "!src/components/*.js"
+    ]
   }
 }

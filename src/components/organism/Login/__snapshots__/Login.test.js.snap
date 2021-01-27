@@ -42,7 +42,7 @@ exports[`renders snapshot correctly 1`] = `
         >
           <div
             className="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
-            data-testid="loginField"
+            data-testid="email"
             onKeyUp={[Function]}
           >
             <div
@@ -95,7 +95,7 @@ exports[`renders snapshot correctly 1`] = `
           <br />
           <div
             className="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
-            data-testid="loginField"
+            data-testid="password"
             onKeyUp={[Function]}
           >
             <div
@@ -146,6 +146,7 @@ exports[`renders snapshot correctly 1`] = `
           </div>
           <button
             className="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-button-5 MuiButton-containedSecondary MuiButton-fullWidth"
+            data-testid="button"
             disabled={false}
             onBlur={[Function]}
             onClick={[Function]}
